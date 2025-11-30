@@ -25,16 +25,11 @@ The goal is to give insights to help reduce employee turnover.
   - seaborn
   - streamlit
 
-Install all required libraries using:
-
-(```bash
-pip install -r (Requirements))
-
 ---
 
 ## How to Run
 -Notebook:
-Open notebook/HR_Attrition_Analysis.ipynb in Google Colab
+Open notebook/Project_notebook.py in Google Colab
 Run all the cells step by step to see the analysis, charts, and insights.
 
 -Streamlit Dashboard:
