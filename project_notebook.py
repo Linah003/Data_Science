@@ -9,14 +9,13 @@ Original file is located at
 # 📊 HR Analytics – Employee Attrition & Income Analysis
 
 Dataset Description
-This dataset includes employee information such as department, salary, experience level, and involvement in R&D. It can be used to explore workforce trends, compare departments, and generate insights about employee performance and compensation.
+This dataset includes employee information such as department, salary, experience level, and involvement in R&D. It can be used to explore workforce trends, compare departments, and generate insights.
 """
 
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
-from wordcloud import WordCloud
-import numpy as np
+
 
 df=pd.read_csv('/content/HR Employee Attrition.csv')
 df.head()
@@ -191,7 +190,7 @@ plt.show()
 ### 🔍 Overall Conclusion
 - Low income is the strongest and most consistent factor related to employee attrition.
 - Department culture, experience level, and early career engagement also play major roles.
-- Improving compensation, onboarding, and **department-level conditions**—especially in HR and R&D—may help reduce turnover.
+- Improving compensation, onboarding, and (department-level conditions)—especially in HR and R&D—may help reduce turnover.
 
 
 """
