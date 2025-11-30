@@ -22,7 +22,7 @@ This dataset includes employee information
 such as department, salary, experience level, 
 and involvement in R&D. It can be used to explore 
 workforce trends, compare departments, and generate
- insights about employee performance and compensation.
+ insights.
 """)
 
 #FILTERS
@@ -213,5 +213,5 @@ st.markdown("""
 ### 🔍 Overall Conclusion
 - Low income is the strongest and most consistent factor related to employee attrition.
 - Department culture, experience level, and early career engagement also play major roles.
-- Improving compensation, onboarding, and **department-level conditions**—especially in HR and R&D—may help reduce turnover.
+- Improving compensation, onboarding, and (department-level conditions)—especially in HR and R&D—may help reduce turnover.
 """)
