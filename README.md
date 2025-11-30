@@ -29,7 +29,7 @@ The goal is to give insights to help reduce employee turnover.
 
 ## How to Run
 -Notebook:
-Open notebook/Project_notebook.py in Google Colab
+Open notebook/Project_notebook.py in Google Colab,
 Run all the cells step by step to see the analysis, charts, and insights.
 
 -Streamlit Dashboard:
