@@ -27,8 +27,8 @@ The goal is to give insights to help reduce employee turnover.
 
 Install all required libraries using:
 
-```bash
-pip install -r (Requirements)
+(```bash
+pip install -r (Requirements))
 
 ---
 
