@@ -45,21 +45,6 @@ The dashboard shows:
 
 ---
 
-## Project Structure
-
-/project-root
-    /data
-        HR_Employee_Attrition_Cleaned.csv
-    /notebook
-        HR_Attrition_Analysis.ipynb
-    /streamlit
-        app.py
-    /presentation
-        HR_Attrition_Presentation.pptx
-    README.md
-
----
-
 ## Key Insights
 - Low income is the strongest and most consistent factor related to employee attrition.
 - Department culture, experience level, and early career engagement also play major roles.
