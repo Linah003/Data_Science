@@ -1,9 +1,7 @@
 import streamlit as st
 import pandas as pd
-import numpy as np
 import seaborn as sns
 import matplotlib.pyplot as plt
-import io
 
 # Page config
 st.set_page_config(page_title="HR Analytics Dashboard", layout="wide")
@@ -214,4 +212,5 @@ st.markdown("""
 - Low income is the strongest and most consistent factor related to employee attrition.
 - Department culture, experience level, and early career engagement also play major roles.
 - Improving compensation, onboarding, and (department-level conditions)—especially in HR and R&D—may help reduce turnover.
+
 """)
