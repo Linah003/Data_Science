@@ -37,11 +37,11 @@ Go to the streamlit folder:
 cd (location of streamlit file)
 streamlit run app.py
 The dashboard shows:
- • Data preview
- • Summary statistics
- • Interactive visualizations
- • Filters (dropdown, slider, multiselect)
- • Insights section
+ - Data preview
+ - Summary statistics
+ - Interactive visualizations
+ - Filters (dropdown, slider, multiselect)
+ - Insights section
 
 ---
 
