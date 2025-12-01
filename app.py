@@ -217,8 +217,9 @@ st.markdown("""
 ### 🔍 Overall Conclusion
 - Low income is the strongest and most consistent factor related to employee attrition.
 - Department culture, experience level, and early career engagement also play major roles.
-- Improving compensation, onboarding, and (department-level conditions)—especially in HR and R&D—may help reduce turnover.
+- Improving compensation, onboarding , may help reduce turnover.
 
 """)
+
 
 
