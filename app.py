@@ -9,6 +9,9 @@ st.set_page_config(page_title="HR Analytics Dashboard", layout="wide")
 #Load data
 df = pd.read_csv('HR Employee Attrition.csv')
 
+# Keep only the columns we actually use in the dashboard
+columns_to_keep = ['Age', 'Attrition', 'Department', 'JobRole', 'MonthlyIncome', 'YearsAtCompany']
+df = df[columns_to_keep]
 
 # Sider
 
@@ -217,4 +220,5 @@ st.markdown("""
 - Improving compensation, onboarding, and (department-level conditions)—especially in HR and R&D—may help reduce turnover.
 
 """)
+
 
