@@ -26,6 +26,10 @@ df.describe()
 
 df.info()
 
+columns_to_keep = ['Age', 'Attrition', 'Department', 'JobRole', 'MonthlyIncome', 'YearsAtCompany']
+df = df[columns_to_keep]
+df.info()
+
 """
 
 # 🧹 1) Data Cleaning
