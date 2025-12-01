@@ -10,7 +10,7 @@ st.set_page_config(page_title="HR Analytics Dashboard", layout="wide")
 df = pd.read_csv('HR Employee Attrition.csv')
 
 
-# SIDEBAR
+# Sider
 
 st.sidebar.title("📘 Dataset Description")
 st.sidebar.info("""
@@ -23,7 +23,7 @@ workforce trends, compare departments, and generate
  insights.
 """)
 
-#FILTERS
+#Filters
 st.sidebar.title("Filters")
 
 # Department filter
@@ -66,19 +66,20 @@ if selected_attrition != "All":
 
 
 
-# MAIN PAGE
+# Main page
 
-st.title("HR Employee Attrition Dashboard")
+st.title("Employee Attrition Dashboard")
 
 # SECTION 1 — DATA PREVIEW
 st.header("📌 Data Preview")
 st.dataframe(df_filtered.head())
+#----------------------------------------------------------------------------------
 
 # SECTION 2 — SUMMARY STATISTICS
 st.header("📌 Summary Statistics")
 st.write(df_filtered.describe())
 
-# DATA INFO
+# Data info
 st.subheader("Dataset Information")
 summary_df = pd.DataFrame({
     "Column": df.columns,
@@ -89,6 +90,7 @@ summary_df = pd.DataFrame({
 
 st.dataframe(summary_df)
 
+#---------------------------------------------------------------------
 
 # VISUALIZATIONS 
 
@@ -171,8 +173,9 @@ sns.heatmap(df_filtered[['Age','MonthlyIncome','YearsAtCompany']].corr(), annot=
 st.pyplot(plt.gcf())
 plt.clf()
 
+#-----------------------------------------------------------
 
-# INSIGHT SECTION:
+#Insight Section:
 
 st.subheader("📌 Key Insights from the HR Attrition Dataset")
 
@@ -214,3 +217,4 @@ st.markdown("""
 - Improving compensation, onboarding, and (department-level conditions)—especially in HR and R&D—may help reduce turnover.
 
 """)
+
